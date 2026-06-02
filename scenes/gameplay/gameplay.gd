@@ -3,7 +3,7 @@ extends Node
 @onready var sprite_2d: Sprite2D = $Sprite2D
 
 var t = 0
-## hm
+## hm.
 func _ready() -> void:
 	var scene_data = GGT.get_current_scene_data()
 	print("GGT/Gameplay: scene params are ", scene_data.params)
